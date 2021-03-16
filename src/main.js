@@ -15,7 +15,7 @@ const Calcular = document.getElementById("Calcular");
 class Cliente{
    
     static  nombre = "";
-    static  impuesto = "";
+    static  impuesto = 0;
 
     constructor(nombre){
 
@@ -35,7 +35,7 @@ class Cliente{
       }
 
  cacularImp(montoBrutoAnual, deducciones){
-     var calculo = ((montoBrutoAnual - deducciones) * 0.21);
+     var calculo = (montoBrutoAnual - deducciones * 0.21);
      
      if (!calculo) return ;
      
