@@ -96,5 +96,5 @@ btn.addEventListener("click", function () {
   ClienteFinal.cacularImp(ImpuestosFinal.getMontoBrutoAnual, ImpuestosFinal.getDeducciones);
   Calcular.innerHTML = "<h1>El impuesto calculado para ".concat(ClienteFinal.getNombre, " es: ").concat(ClienteFinal.getImpuestos, "</h1>");
 
-  console.log("Calculo realizado");
+  // console.log("Calculo realizado");
 });

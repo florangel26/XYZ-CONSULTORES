@@ -73,12 +73,12 @@ class Impuestos{
 
 btn.addEventListener("click", () => {
 
-    // console.log (
+    console.log (
 
-    //     Number (inputMontoBrutoAnual.value) + Number(inputDeducciones.value)
-    // );
-    // Calcular.innerHTML =
-    // Number (inputMontoBrutoAnual.value) + Number(inputDeducciones.value)
+        Number (inputMontoBrutoAnual.value) + Number(inputDeducciones.value)
+    );
+    Calcular.innerHTML =
+    Number (inputMontoBrutoAnual.value) + Number(inputDeducciones.value)
 
 
  const inputMontoBrutoAnualNor = Number(inputMontoBrutoAnual.value);
